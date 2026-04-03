@@ -135,7 +135,7 @@ function Footer() {
   console.log(isOpen);
 
   // if (hour >= openHour && hour <= closeHour) alert("We're currently open");
-  // else alert("Sorry we're closed");
+  // else alert("Sorry we're closed");//
 
   return (
     <footer className="footer">
@@ -164,7 +164,7 @@ function Order({ closeHour, openHour }) {
   );
 }
 
-// React version 18
+// React version 18(vs18)
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -172,5 +172,5 @@ root.render(
   </React.StrictMode>,
 );
 
-//React before 18
+//React before  version 18
 // React.render(<App/>);
